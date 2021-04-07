@@ -1636,6 +1636,7 @@ export const shippingZone: ShippingZone_shippingZone = {
         value: 0
       },
       name: "DB Schenker",
+      description: "General shipping method",
       postalCodeRules: [
         {
           __typename: "ShippingMethodPostalCodeRule",
@@ -1700,6 +1701,7 @@ export const shippingZone: ShippingZone_shippingZone = {
         value: 0
       },
       name: "Registred priority",
+      description: "Priority shipping method",
       postalCodeRules: [
         {
           __typename: "ShippingMethodPostalCodeRule",
@@ -1764,6 +1766,7 @@ export const shippingZone: ShippingZone_shippingZone = {
         value: 0
       },
       name: "UPS",
+      description: "Different shipping method",
       postalCodeRules: [
         {
           __typename: "ShippingMethodPostalCodeRule",
@@ -1815,6 +1818,7 @@ export const shippingZone: ShippingZone_shippingZone = {
         value: 0
       },
       name: "DHL",
+      description: "Different shipping method",
       postalCodeRules: [
         {
           __typename: "ShippingMethodPostalCodeRule",
